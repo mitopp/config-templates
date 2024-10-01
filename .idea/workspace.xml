@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20f66522-6223-48d6-a802-2f2354fa0a28" name="Changes" comment="Added EditorConfig for various editors and IDEs (fixes #1)" />
+    <list default="true" id="20f66522-6223-48d6-a802-2f2354fa0a28" name="Changes" comment="Added EditorConfig for various editors and IDEs (fixes #1)">
+      <change afterPath="$PROJECT_DIR$/configs/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,22 +26,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "mitopp"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mitopp&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:mitopp/config-templates.git",
-    "accountId": "0bbdc745-0e39-481c-a15f-be2628ab067c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:mitopp/config-templates.git&quot;,
+    &quot;accountId&quot;: &quot;0bbdc745-0e39-481c-a15f-be2628ab067c&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mp6oRvwFQe7u5xgxvp8oJmz5Lb" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -48,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "git-widget-placeholder": "config",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "/home/michael/blacksmith/codeschubser",
     "node.js.detected.package.eslint": "true",

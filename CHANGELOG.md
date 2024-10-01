@@ -11,3 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - EditorConfig for various editors and IDEs. #1
 - Ignore configuration for git.
+- Additional `README.md` for configurations.
