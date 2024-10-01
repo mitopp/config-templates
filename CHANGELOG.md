@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - EditorConfig for various editors and IDEs. #1
+- Ignore configuration for git.
