@@ -1,0 +1,3 @@
+# Configurations
+
+- [EditorConfig](.editorconfig)
