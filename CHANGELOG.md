@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Ignore configuration for git.
 - Additional `README.md` for configurations.
 - Twig templates structure and twig-cs-fixer. #4 #9
+- PHP-CS-Fixer and configuration. #6
 
 ### Changed
 
