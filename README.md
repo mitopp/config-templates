@@ -2,4 +2,4 @@
 
 ## Features
 
-- [Configuration](configs)
+- [Configurations](configs)

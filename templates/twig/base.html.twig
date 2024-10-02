@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% block head %}
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>{% block title %}{% endblock %}</title>
+            {% block stylesheets %}{% endblock %}
+            {% block javascripts %}{% endblock %}
+        {% endblock %}
+    </head>
+
+    <body class="{% block page_classes %}{% endblock %}" id="{% block page_id %}{% endblock %}">
+        {% block body %}
+            <header>
+                {% block header %}
+                    <nav>
+                        <div class="{{ container_class|default('boxed') }}">
+                            {{ include('common/inc.header.html.twig') }}
+                        </div>
+                    </nav>
+                {% endblock %}
+            </header>
+
+            <main class="{{ container_class|default('boxed') }}" id="content">
+                {% block main %}{% endblock %}
+            </main>
+
+            <footer>
+                {% block footer %}
+                    <div class="{{ container_class|default('boxed') }}">
+                        {{ include('common/inc.footer.html.twig') }}
+                    </div>
+                {% endblock %}
+            </footer>
+        {% endblock %}
+    </body>
+</html>
