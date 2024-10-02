@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'Welcome' %}
+{% block page_id 'home' %}
+
+{% block main %}
+    {% embed 'layout/boxed.html.twig' %}
+        {% block content %}
+            <h1>Homepage</h1>
+        {% endblock %}
+    {% endembed %}
+{% endblock %}
